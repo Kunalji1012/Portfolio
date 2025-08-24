@@ -1,7 +1,7 @@
 backend:
-  name: github
-  repo: https://kunalji1012.github.io/Portfolio/
+  name: git-gateway
   branch: main
+  repo: Kunalji1012/Portfolio
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
@@ -44,4 +44,3 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "URL", name: "url", widget: "string" }
           - { label: "Footer Text", name: "footer_text", widget: "text" }
-
